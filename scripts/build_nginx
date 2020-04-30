@@ -55,4 +55,6 @@ echo "Downloading $uuid4_url"
   make install
 )
 
+apt-get install ca-certificates
+
 cp /tmp/nginx/sbin/nginx $1
